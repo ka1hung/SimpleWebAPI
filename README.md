@@ -7,6 +7,7 @@ simple web api example present by flask with python3
 ### 1.install flask
 
     pip install flask
+    pip install flask-cors
 
 ### 2.start
 

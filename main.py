@@ -1,4 +1,5 @@
 from flask import Flask, request, url_for, render_template, session, flash, redirect, send_from_directory, make_response, jsonify
+from flask_cors import CORS
 import json
 import threading
 
@@ -19,7 +20,7 @@ tags['TD1'] = Tag('TD1', 0, 'ok', '數位測試點1')
 tags['TD2'] = Tag('TD2', 1, 'error', '數位測試點2')
 
 app = Flask(__name__)
-
+CORS(app)
 
 @app.route('/')
 def index():
