@@ -1,5 +1,4 @@
 from flask import Flask, request, url_for, render_template, session, flash, redirect, send_from_directory, make_response, jsonify
-import point
 import json
 import threading
 
@@ -13,11 +12,11 @@ class Tag:
 lock = threading.Lock()
 
 tags = {}
-tags['TA1'] = point.Tag('TA1', 100, 'ok', '類比測試點1')
-tags['TA2'] = point.Tag('TA2', 200, 'offline', '類比測試點2')
-tags['TA3'] = point.Tag('TA3', 300, 'ok', '類比測試點3')
-tags['TD1'] = point.Tag('TD1', 0, 'ok', '數位測試點1')
-tags['TD2'] = point.Tag('TD2', 1, 'error', '數位測試點2')
+tags['TA1'] = Tag('TA1', 100, 'ok', '類比測試點1')
+tags['TA2'] = Tag('TA2', 200, 'offline', '類比測試點2')
+tags['TA3'] = Tag('TA3', 300, 'ok', '類比測試點3')
+tags['TD1'] = Tag('TD1', 0, 'ok', '數位測試點1')
+tags['TD2'] = Tag('TD2', 1, 'error', '數位測試點2')
 
 app = Flask(__name__)
 
