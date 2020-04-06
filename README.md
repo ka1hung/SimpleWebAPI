@@ -51,4 +51,4 @@ simple web api example present by flask with python3
 
 ## Postman export file
 
-    SimpleWebAPI.postman_collection.json
+    https://github.com/ka1hung/SimpleWebAPI/blob/master/SimpleWebAPI.postman_collection.json
