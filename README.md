@@ -4,9 +4,8 @@ simple web api example present by flask with python3
 
 ## Feature
 
-### 1.allow cors
-
-### 2. JSON data Formate
+1. allow cors
+2. JSON data Formate
 
 ## Quick start
 
