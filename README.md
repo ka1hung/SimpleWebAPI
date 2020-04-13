@@ -32,14 +32,14 @@ simple web api example present by flask with python3
 
     GET http://127.0.0.1:8000/writetag?n=TD1&v=0
 
-### read multy Tags
+### read multiple Tags
 
     POST http://127.0.0.1:8000/readtags
 
     Body: 
             ["TA1","TA2","rr"]
 
-### write multy Tags
+### write multiple Tags
 
     POST 127.0.0.1:8000/writetags
     
